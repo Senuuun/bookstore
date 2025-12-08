@@ -43,15 +43,14 @@ Este projeto foi desenvolvido como atividade avaliativa seguindo todos os crité
 
 ## Regras de negócio
 
-```
 
-Regra 1 - Um livro deve pertencer a uma categoria existente
-Regra 2 - Autores associados ao livro devem existir
-Regra 3 - Um livro pode ter múltiplos autores
-Regra 4 - Não é possível atualizar ou deletar um livro inexistente
-Regra 5 - Apenas campos enviados podem ser alterados
-Regra 6 - A busca por título é parcial e não sensível a maiúsculas
-```
+* **Regra 1 - Um livro deve pertencer a uma categoria existente**
+* **Regra 2 - Autores associados ao livro devem existir**
+* **Regra 3 - Um livro pode ter múltiplos autores**
+* **Regra 4 - Não é possível atualizar ou deletar um livro inexistente**
+* **Regra 5 - Apenas campos enviados podem ser alterados**
+* **Regra 6 - A busca por título é parcial e não sensível a maiúsculas**
+
 
 ## 🧱 Arquitetura do Projeto
 
