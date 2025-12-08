@@ -14,8 +14,8 @@ Este projeto foi desenvolvido como atividade avaliativa seguindo todos os crité
 
 ## 🚀 Tecnologias Utilizadas
 
-* **Java 21**
-* **Spring Boot 4** (Web, Validation, JPA)
+* **Java 17**
+* **Spring Boot 3+** (Web, Validation, JPA)
 * **Spring Security** (autenticação via HTTP Basic ou JWT – conforme implementação no trabalho)
 * **Spring Data JPA / Hibernate**
 * **Flyway** (migrations)
