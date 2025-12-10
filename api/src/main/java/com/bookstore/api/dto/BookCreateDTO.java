@@ -17,7 +17,6 @@ public class BookCreateDTO {
 
     private Set<Long> authorIds;
 
-    // Getters e Setters
 
     public String getTitle() {
         return title;

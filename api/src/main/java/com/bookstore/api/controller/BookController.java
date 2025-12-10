@@ -25,26 +25,22 @@ public class BookController {
         return ResponseEntity.created(URI.create("/api/books/" + created.getId())).body(created);
     }
 
-    // Update
     @PutMapping("/{id}")
     public ResponseEntity<BookDTO> update(@PathVariable Long id, @Valid @RequestBody BookUpdateDTO dto) {
         return ResponseEntity.ok(service.update(id, dto));
     }
 
-    // Delete
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id) {
         service.delete(id);
         return ResponseEntity.noContent().build();
     }
 
-    // Find by PK
     @GetMapping("/{id}")
     public ResponseEntity<BookDTO> getById(@PathVariable Long id) {
         return ResponseEntity.ok(service.findById(id));
     }
 
-    // Find all OR filter by title (?title=xxx)
     @GetMapping
     public ResponseEntity<List<BookDTO>> getAll(@RequestParam(value = "title", required = false) String title) {
         if (title != null && !title.isBlank()) {

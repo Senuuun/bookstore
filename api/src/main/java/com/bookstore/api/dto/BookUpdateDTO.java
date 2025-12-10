@@ -13,7 +13,6 @@ public class BookUpdateDTO {
     private Long categoryId;
     private Set<Long> authorIds;
 
-    // Getters e Setters
 
     public String getTitle() {
         return title;
